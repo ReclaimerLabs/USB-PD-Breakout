@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Projects/USB-PD-Breakout/electrical/USB-PD-Breakout.sch</source>
+    <date>1/22/2016 02:25:20</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB-PD-Breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>USB-C_Female</value>
+      <footprint>Jason_Libraries:USB-C_Female_Top_Mount_Dual_SMT_RA</footprint>
+      <fields>
+        <field name="Manufacturer">JAE Electronics</field>
+        <field name="Manufacturer Part Number">DX07S024JJ3R1300</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">670-2846-1-ND</field>
+      </fields>
+      <libsource lib="Jason_Custom_Home" part="USB-C_Female"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DE3EA</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_A</value>
+      <footprint>Jason_Libraries:USB_A_Female_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">Assmann</field>
+        <field name="Manufacturer Part Number">AU-Y1006-2</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">AE11187-ND</field>
+      </fields>
+      <libsource lib="Jason_Custom_Home" part="USB_A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DE449</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X05</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x05</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DE8FA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Jason_Libraries:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805FR-074K7L</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-4.70KCRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DEACE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470pF</value>
+      <footprint>Jason_Libraries:0603_np</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0603KRX7R9BB471</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1078-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DEE45</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Jason_Libraries:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0805KKX7R7BB105</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1365-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DEE97</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Jason_Libraries:0603_np</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0603KRX7R7BB104</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DEEC4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Jason_Libraries:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0805MKX5R6BB226</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1900-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569DEEF3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_02X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x04</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569E149A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470pF</value>
+      <footprint>Jason_Libraries:0603_np</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0603KRX7R9BB471</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1078-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569E6069</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Jason_Libraries:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805FR-074K7L</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-4.70KCRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569E63F6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Jason_Libraries:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805FR-074K7L</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-4.70KCRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569E6456</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>FUSB302MPX</value>
+      <footprint>Jason_Libraries:MLP_14</footprint>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">FUSB302MPX</field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier 1 Part Number">512-FUSB302MPX</field>
+      </fields>
+      <libsource lib="Jason_Custom_Home" part="FUSB302MPX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569EFB49</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Jason_Libraries:0603_np</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0603KRX7R7BB104</field>
+        <field name="Supplier 1">Digikey</field>
+        <field name="Supplier 1 Part Number">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569E585B</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X02</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569F3CBA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jason_Custom_Home" part="FUSB302MPX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FUSB302MPX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CC2" type="BiDi"/>
+        <pin num="2" name="VBUS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="~INT" type="openCol"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SDA" type="openCol"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="CC1" type="power_in"/>
+        <pin num="11" name="CC1" type="BiDi"/>
+        <pin num="12" name="VCONN" type="power_in"/>
+        <pin num="13" name="VCONN" type="power_in"/>
+        <pin num="14" name="CC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jason_Custom_Home" part="USB-C_Female">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-C_Female</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="SSTXp1" type="passive"/>
+        <pin num="A3" name="SSTXn1" type="passive"/>
+        <pin num="A4" name="Vbus" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="Dp1" type="passive"/>
+        <pin num="A7" name="Dn1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="Vbus" type="passive"/>
+        <pin num="A10" name="SSRXn2" type="passive"/>
+        <pin num="A11" name="SSRXp2" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="SSTXp2" type="passive"/>
+        <pin num="B3" name="SSTXn2" type="passive"/>
+        <pin num="B4" name="Vbus" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="Dp2" type="passive"/>
+        <pin num="B7" name="Dn2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="Vbus" type="passive"/>
+        <pin num="B10" name="SSRXn1" type="passive"/>
+        <pin num="B11" name="SSRXp1" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jason_Custom_Home" part="USB_A">
+      <description>A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="Jason_Custom_Home">
+      <uri>D:\Projects\Libraries\Jason_Custom_Home.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Vbus">
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="2" name="/Vdd">
+      <node ref="J2" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="3" name="/Vconn">
+      <node ref="J2" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="4" name="/VbusA">
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="/~INT">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="6" name="/SCL">
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="7" name="/SDA">
+      <node ref="J4" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="8" name="Net-(J1-PadB10)">
+      <node ref="J1" pin="B10"/>
+    </net>
+    <net code="9" name="Net-(J1-PadB11)">
+      <node ref="J1" pin="B11"/>
+    </net>
+    <net code="10" name="Net-(J1-PadA3)">
+      <node ref="J1" pin="A3"/>
+    </net>
+    <net code="11" name="Net-(J1-PadA2)">
+      <node ref="J1" pin="A2"/>
+    </net>
+    <net code="12" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="13" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="J1" pin="B1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="8"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="15" name="/Vpu">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="16" name="/D-">
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="17" name="Net-(J1-PadB2)">
+      <node ref="J1" pin="B2"/>
+    </net>
+    <net code="18" name="Net-(J1-PadB3)">
+      <node ref="J1" pin="B3"/>
+    </net>
+    <net code="19" name="Net-(J1-PadA10)">
+      <node ref="J1" pin="A10"/>
+    </net>
+    <net code="20" name="Net-(J1-PadA11)">
+      <node ref="J1" pin="A11"/>
+    </net>
+    <net code="21" name="/D+">
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="22" name="/CC1">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J1" pin="A5"/>
+    </net>
+    <net code="23" name="/CC2">
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="B5"/>
+    </net>
+  </nets>
+</export>
