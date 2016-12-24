@@ -24,7 +24,9 @@ void setup() {
   setReg(0x0B, 0x0F); // FULL POWER!
   setReg(0x07, 0x04); // Flush RX
   setReg(0x02, 0x0B); // Switch on MEAS_CC2
+  //setReg(0x02, 0x07); // Switch on MEAS_CC1
   setReg(0x03, 0x26); // Enable BMC Tx on CC2
+  //setReg(0x03, 0x25); // Enable BMC Tx on CC2
   readAllRegs();
   
   sendPacket( 0, 2, 0, 1, 0, 0x7, NULL );
