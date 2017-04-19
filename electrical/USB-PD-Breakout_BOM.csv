@@ -1,16 +1,16 @@
-Reference, Value, Footprint, Datasheet, Manufacturer, Manufacturer Part Number, Supplier 1, Supplier 1 Part Number, DNP
-J1,USB-C_Female,Jason_Libraries:USB-C_Female_Top_Mount_Dual_SMT_RA,,JAE Electronics,DX07S024JJ3R1300,Digikey,670-2846-1-ND,
-J3,USB_A,Jason_Libraries:USB_A_Female_SMD,,Assmann,AU-Y1006-2,Digikey,AE11187-ND,
-J4,CONN_01X05,Socket_Strips:Socket_Strip_Straight_1x05,,,,,,DNP
-R2,4.7k,Jason_Libraries:R_0805,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,
-C5,470pF,Jason_Libraries:0603_np,,Yageo,CC0603KRX7R9BB471,Digikey,311-1078-1-ND,
-C3,1uF,Jason_Libraries:R_0805,,Yageo,CC0805KKX7R7BB105,Digikey,311-1365-1-ND,
-C2,0.1uF,Jason_Libraries:0603_np,,Yageo,CC0603KRX7R7BB104,Digikey,311-1088-1-ND,
-C1,22uF,Jason_Libraries:R_0805,,Yageo,CC0805MKX5R6BB226,Digikey,311-1900-2-ND,
-J2,CONN_02X04,Socket_Strips:Socket_Strip_Straight_2x04,,,,,,DNP
-C6,470pF,Jason_Libraries:0603_np,,Yageo,CC0603KRX7R9BB471,Digikey,311-1078-1-ND,
-R3,4.7k,Jason_Libraries:R_0805,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,
-R4,4.7k,Jason_Libraries:R_0805,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,
-U1,FUSB302MPX,Jason_Libraries:MLP_14,,Fairchild,FUSB302MPX,Mouser,512-FUSB302MPX,
-C4,0.1uF,Jason_Libraries:0603_np,,Yageo,CC0603KRX7R7BB104,Digikey,311-1088-1-ND,
-J5,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,,,,,,DNP
+Reference, Value, Footprint, Datasheet, Manufacturer, Manufacturer Part Number, Supplier 1, Supplier 1 Part Number, MacroFab Part Number
+J1,USB-C_Female,Reclaimer_Labs:USB-C_Female_105450-0101,,JAE Electronics,DX07S024JJ3R1300,Digikey,670-2846-1-ND,
+R1,4.7k,Capacitors_SMD:C_0603,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,MF-RES-0603-4.7K
+C5,470pF,Capacitors_SMD:C_0603,,Yageo,CC0603KRX7R9BB471,Digikey,311-1078-1-ND,
+C3,1uF,Capacitors_SMD:C_0805,,,,,,MF-CAP-0805-1uF
+C2,0.1uF,Capacitors_SMD:C_0603,,,,,,MF-CAP-0603-0.1uF
+C1,10uF,Capacitors_SMD:C_1206,,,,,,MF-CAP-1206-10uF
+C6,470pF,Capacitors_SMD:C_0603,,Yageo,CC0603KRX7R9BB471,Digikey,311-1078-1-ND,
+R2,4.7k,Capacitors_SMD:C_0603,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,MF-RES-0603-4.7K
+R3,4.7k,Capacitors_SMD:C_0603,,Yageo,RC0805FR-074K7L,Digikey,311-4.70KCRCT-ND,MF-RES-0603-4.7K
+U1,FUSB302BMPX,Reclaimer_Labs:MLP_14,,Fairchild,FUSB302BMPX,Digikey,FUSB302BMPXCT-ND,
+C4,0.1uF,Capacitors_SMD:C_0603,,,,,,MF-CAP-0603-0.1uF
+J2,USB_OTG,Reclaimer_Labs:USB_Micro-B_10118193,,,,,,MF-CON-MICROUSB-RIGHT
+J4,CONN_02X03,Socket_Strips:Socket_Strip_Angled_2x03,,,,,,MF-CON-2.54mm-2x3
+J3,CONN_02X03,Socket_Strips:Socket_Strip_Angled_2x03,,,,,,MF-CON-2.54mm-2x3
+J5,CONN_02X03,Socket_Strips:Socket_Strip_Angled_2x03,,,,,,MF-CON-2.54mm-2x3
