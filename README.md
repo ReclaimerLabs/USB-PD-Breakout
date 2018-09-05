@@ -4,7 +4,7 @@ This board features an FUSB302B as a Type-C Port Management (TCPM) chip. You can
 
 # Features
 
-The FUSB302B is a fully-capable USB Power Delivery device. The power header is rated to 100 W (20 V at 5 A) if both Vbus pins are used along with two power pins. The FUSB302B's max I2C clock frequency is 1 MHz. 
+The FUSB302B is a fully-capable USB Power Delivery device. The power header is rated to 100 W (20 V at 5 A) if both Vbus pins are used along with two ground pins. The FUSB302B's max I2C clock frequency is 1 MHz. 
 
 # Example Usage
 
