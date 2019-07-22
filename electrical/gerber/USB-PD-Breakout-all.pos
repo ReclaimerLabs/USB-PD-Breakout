@@ -1,0 +1,27 @@
+### Module positions - created on 7/1/2019 20:31:05 ###
+### Printed by Pcbnew version kicad (5.1.2)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val           Package                        PosX       PosY       Rot  Side
+C1        10uF          C_1206                      25.1460     3.1280    0.0000  top
+C2        0.1uF         C_0603                      24.5110     5.6680    0.0000  top
+C3        1uF           C_0805                      24.6380    17.2720   90.0000  top
+C4        0.1uF         C_0603                      22.6060    17.0980   90.0000  top
+C5        470pF         C_0603                      24.5110     8.2080    0.0000  top
+C6        470pF         C_0603                      20.7010     8.2080  180.0000  top
+J1        USB-C_Female  USB-C_Female_105450-0101     4.1250    14.0000  270.0000  top
+J2        USB_OTG       USB_Micro-B_10118193        13.9700    25.6000  180.0000  top
+R1        4.7k          C_0603                      22.8600    26.1150  180.0000  top
+R2        4.7k          C_0603                      22.8600    24.2100  180.0000  top
+R3        4.7k          C_0603                      22.8600    22.3050  180.0000  top
+TP1       TEST_1P       TP                          27.3050    17.7800    0.0000  top
+TP2       TEST_1P       TP                          25.7810    24.5110    0.0000  top
+TP3       TEST_1P       TP                          16.0020    20.7010    0.0000  top
+TP4       TEST_1P       TP                          29.3370     1.9050    0.0000  top
+TP5       TEST_1P       TP                          21.9710     5.3340    0.0000  top
+TP6       TEST_1P       TP                          21.8440    19.8120    0.0000  top
+TP7       TEST_1P       TP                          19.1770    18.4150    0.0000  top
+TP8       TEST_1P       TP                          18.1610    15.1130    0.0000  top
+TP9       TEST_1P       TP                          18.1610    10.0330    0.0000  top
+U1        FUSB302BMPX   MLP_14                      22.6060    12.0180  180.0000  top
+## End
